@@ -1,0 +1,33 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# VS Code-specific files
+.vscode/
+.vscode-test/
+
+# Compiled output
+dist/
+out/
+*.vsix
+
+# Logs & temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Test & Coverage
+coverage/
+test/
+
+# Linting
+.eslintcache
+eslint.config.mjs
+
+# Ignore extension metadata
+.vscodeignore
+
+# Ignore compiled files (if using TypeScript)
+*.tsbuildinfo
